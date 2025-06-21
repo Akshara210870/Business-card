@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.businesss-card {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,#00041f, #f3bd3c, #f3df36, #f3bd3c, #00041f);
+    align-items: center;
+    width: 32.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+
+.card-details {
+    margin: 10px 2px 15px 21px;
+}
+
+.card-details h3 {
+    margin: 5px 0px 9px;
+}
+
+hr {
+    height: 3px;
+    background-color: blue;
+}
+
+.card-info a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.card-info img {
+    width: 22px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.card-image img {
+    width: 213px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .businesss-card {
+        display: inline-block;
+    width: 17.5rem;
+    }
+    /* .card-image img {
+        width: 100%;
+        height: auto;
+    } */
+    .card-image{
+        text-align: center;
+    }
+}
